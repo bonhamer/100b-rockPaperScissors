@@ -19,31 +19,12 @@ Output:
 '''
 
 def playerWins(computer,player):
-  
-  list1 = ["Rock", "Paper", "Scissors"]
-  x = random.choice(list1)
-  if x == "Rock":
-    x = 0
-  if x == "Paper":
-    x = -1
-  if x == "Scissors":
-    x = -2
-    
-  list1 = ["Rock", "Paper", "Scissors"]
-  P = random.choice(list1)
-  if P == "Rock":
-    P = 0
-  if P == "Paper":
-    P = 1
-  if P == "Scissors":
-    P = 2
-
-  y = x + P
-
-  return y
+  computer = int(computer)
+  player = int(player)
+  win = player - computer
+  return win
 
 
-  
 
 
 
