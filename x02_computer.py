@@ -24,7 +24,7 @@ def computerChoice():
   return x
   
   
-  return value
+
 
 
 if __name__ == "__main__":
